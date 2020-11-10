@@ -1,0 +1,135 @@
+#container {
+  margin: 15% auto;
+  width: 175px;
+  height: 175px;
+  padding: 4px;
+}
+
+button {
+  font-size: 1em;
+  font-family: 'Lucida Console';
+}
+
+#play {
+  margin: auto;
+  display: block;
+}
+
+#score-label {
+  visibility: hidden;
+  display: inline-block;
+  margin-top: 0;
+  font-size: 1em;
+  font-family: 'Lucida Console';
+}
+
+#terminate {
+  visibility: hidden;
+  float: right;
+}
+
+#restart {
+  display: block;
+  margin: auto;
+}
+
+#username {
+  display: block;
+  margin: auto;
+  font-size: 1em;
+  font-family: 'Lucida Console';
+}
+
+#submit {
+  display: block;
+  margin: auto;
+}
+
+#leaderboard table {
+  margin: auto;
+  font-size: 1em;
+  font-family: 'Lucida Console';
+}
+
+#leaderboard table, th, tr, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+#leaderboard th, td {
+  width: 25%;
+  padding: 5px;
+}
+
+#leaderboard caption {
+  padding-bottom: 5px;
+}
+
+.square {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border: 1px solid black;
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  margin-left: 1px;
+  margin-bottom: 1px;
+  text-align: center;
+  line-height: 50px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.unselectable {
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.square:hover {
+  background-color: aquamarine;
+  cursor: pointer;
+}
+
+.inactive:hover {
+  background-color: white;
+  cursor: auto;
+}
+
+.memory.inactive:hover {
+  background-color: aquamarine;
+}
+
+.clicked-memory.inactive:hover {
+  background-color: aquamarine;
+}
+
+.memory {
+  background-color: aquamarine;
+}
+
+.clicked:hover {
+  cursor: auto;
+}
+
+.clicked-memory {
+  background-color: aquamarine;
+}
+
+.clicked-memory-last {
+  background-color: green;
+}
+
+.clicked-memory-last:hover {
+  background-color: green;
+}
+
+.clicked-wrong {
+  background-color: red;
+}
+
+.clicked-wrong:hover {
+  background-color: red;
+}
